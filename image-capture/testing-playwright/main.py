@@ -61,5 +61,6 @@ asyncio.run(mobile_device())
 # 3. Take a screenshot of a full page: This can be accomplished by a simple flag (full_page)as screenshot is taken
 # 4. quality of the screenshot can be determined by the "quality" flog. This flag could be provided in the user context.
 # 5. style or masking can be done to hide/show certain elements on the screnshot taken
-
 # 6. Should have the time and location of the user so that these smaller thing sync between the screenshot and the access point
+
+# Note for Fedora: Headed screenshot is not possible as of now. But headless works just fine.
